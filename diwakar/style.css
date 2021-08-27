@@ -223,7 +223,7 @@ img.home{
     .banner{
         padding: 100px 50px 150px;
         min-height: 100vh;
-        background-image: url(./home.jpg);
+
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 600px;
