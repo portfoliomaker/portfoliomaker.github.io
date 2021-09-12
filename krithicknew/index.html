@@ -57,6 +57,34 @@
     </div>
   </div>
 
+  <!-- NavBar DOM -->
+  <nav class="header">
+    <div class="container-fluid flex-between">
+     
+      <div class="container_wrap">
+        <div class="menu">
+          <a data-index="0" href="#home" class="active">
+            <i class="icon-home"></i>
+            <span>HOME</span>
+          </a>
+          <a data-index="1" href="#about">
+            <i class="icon-aboutme"></i>
+            <span>ABOUT</span>
+          </a>
+          <a data-index="2" href="#skills">
+            <i class="icon-graduation"></i>
+            <span>SKILLS</span>
+          </a>
+          <a data-index="3" href="#contact">
+            <i class="icon-contact"></i>
+            <span>CONTACT</span>
+          </a>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 
   <section class="hero-wrap scrollspy-section" id="home">
     <!-- Particles.JS Library -->
@@ -68,8 +96,8 @@
           <span class="subheading">Hey! I am </span>
           <h1>
             <!-- I use Ripple Hover animation on the Text using Keyframes -->
-            <span>K</span><span>R</span><span>I/span><span>T</span><span>H</span><span>I</span><span>C</span><span>K</span> 
-            </h1>
+            <span>K</span><span>R</span><span>I</span><span>T</span><span>H</span><span>I</span><span>C</span><span>K</span>
+          </h1>
           <h2>
             I'm a
             <!-- Typed.min.js (Text Typing Animation in javascript) -->
@@ -79,7 +107,8 @@
           </h2>
         </div>
         <br />
-        
+        <div class="secondText">
+        </div>
       </div>
     </div>
   </section>
@@ -96,23 +125,17 @@
           <i class="icon-ruler"></i>
           About Me
         </h5>
-        <h3>Hello Friends. Welcome to my Portfolio</h3>
-        <p>First of all I am going to introduce about myself. My name is Kumar Lakshmanan (<a
-            href="http://codingfrontend.com">CodingFrontend</a>) from India. </p>
-        <ul style="margin-left: 40px;list-style: disclosure-closed;">
+        <h3>Hello World !</h3>
+        <p>I am Krithick Kalyan</p>
+        <ul style="margin-left: 20px;list-style: disclosure-closed;">
           <li>18 Years Old Programmer.</li>
           <li>I am self learning creative programmer.</li>
-          <li>I am a best Problem solver, Innovative creator, Quick Learner,Forward-Thinker and Energetic
-            minded young person.</li>
+          
           <li>I am interested in Web Designing and Developing.
           </li>
-          <li>3 Years learner in This Technology field. Still learning some intreseting things on internet.</li>
-          <li>By the Degree I am a Physic Student. and now i completed my second year course on degree.</li>
+          
         </ul>
-        <p>This site is under construction.</p><br />
-        <a href="http://codingfrontend.com" class="btn btn-outline-primary" style="color: var(--cf-primary-color)">GO TO
-          MY
-          BLOG</a>
+        
       </div>
     </div>
   </div>
@@ -187,75 +210,7 @@
       </div>
     </div>
   </div>
-  <div class="contact-widget scrollspy-section widget w-100" id="contact">
-    <div class="widget-content">
-      <h5 class="widget-heading">
-        <i class="icon-ruler" style="background: var(--cf-third-color);"></i>
-        Contact Me
-      </h5>
-      <div class="flex-between cf-d-md-block w-100">
-        <div class="widget-contact cf-md-w-50">
-          <div class="contactInfoBox">
-            <div class="box">
-              <div class="icon">
-                <i class="icon-location"></i>
-              </div>
-              <div class="text">
-                <h3>Address</h3>
-                <p>98, Middle Street,<br>Papanasam,<br>Tirunelveli,<br>Tamilnadu</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="icon">
-                <i class="icon-phone"></i>
-              </div>
-              <div class="text">
-                <h3>Phone</h3>
-                <p>+91 6382775774</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="icon">
-                <i class="icon-email"></i>
-              </div>
-              <div class="text">
-                <h3>Email</h3>
-                <p>admin@codingfrontend.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="widget-form cf-md-w-50">
-          <div class="contact-form">
-            <form id="my-form" action="https://formspree.io/f/mayaevgv" method="POST">
-              <div class="widget-form-group">
-                <input id="NAME" name="NAME" class="widget-form-control" required />
-                <label for="NAME">NAME&nbsp;<span style="color: #e44e21ef;">*</span>&nbsp;</label>
-              </div>
-              <div class="widget-form-group">
-                <input id="EMAIL" name="EMAIL" class="widget-form-control" required />
-                <label for="EMAIL">EMAIL&nbsp;<span style="color: #e44e21ef;">*</span>&nbsp;</label>
-              </div>
-              <div class="widget-form-group">
-                <input id="CONTACT" name="CONTACT" class="widget-form-control" required />
-                <label for="CONTACT">CONTACT&nbsp;<span style="color: #e44e21ef;">*</span></label>
-              </div>
-              <div class="widget-form-group">
-                <textarea id="MESSAGE" name="MESSAGE" class="widget-form-control" required></textarea>
-                <label for="MESSAGE">MESSAGE&nbsp;<span style="color: #e44e21ef;">*</span></label>
-              </div>
-              <p id="form-status"
-                style="display: none;border: 1px solid e44e21ef;padding: 5px 10px;margin-bottom: 15px;background: e44e21ef;">
-              </p>
-              <div class="widget-form-group" style="text-align: right;">
-                <button type="submit" id="submitBtn" class="btn btn-outline-primary">SEND</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <!-- External JS Libraries -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
