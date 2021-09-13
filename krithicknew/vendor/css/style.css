@@ -870,7 +870,7 @@ textarea {
 }
 
 .rounded-social-buttons .social-button.github {
-  background: #bb0000;
+  background: #000;
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
