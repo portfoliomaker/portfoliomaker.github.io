@@ -835,7 +835,7 @@ textarea {
           transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-github, .fa-instagram {
   font-size: 25px;
 }
 
