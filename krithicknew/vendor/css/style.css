@@ -874,9 +874,9 @@ textarea {
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
-  color: #FFF;
-  background: #000;
-  border-color: #bb0000;
+  color: #000;
+  background: #FFF;
+  border-color: #000;
 }
 
 .rounded-social-buttons .social-button.instagram {
